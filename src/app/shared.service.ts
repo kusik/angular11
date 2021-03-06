@@ -39,7 +39,7 @@ readonly PhotoUrl = "http://localhost:5000/Photos"
   }
 
  getAllDepartmentNames():Observable<any[]>{
-    return this.http.get<any[]>(this.APIUrl+'/Employee/getAllDepartmentNames');
+    return this.http.get<any[]>(this.APIUrl+'/employee/GetAllDepartmentNames');
   }
 
 
